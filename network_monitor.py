@@ -532,7 +532,6 @@ class NetworkMonitorApp(QtWidgets.QWidget):
         QtWidgets.QMessageBox.information(self, 'Complete', f'Save as: {filename}')
         self.timer.start()
 
-# ==================== 主程序 ====================
 if __name__ == "__main__":
     app = QtWidgets.QApplication([])
     app.setStyle('Fusion')
